@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_log_in" tools:context=".LogInActivity"
-    android:background="#5ad083"
+    android:background="@android:color/holo_purple"
     android:weightSum="1">
 
     <TextView
