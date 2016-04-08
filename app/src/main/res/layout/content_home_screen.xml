@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_log_in" tools:context=".LogInActivity"
+    tools:showIn="@layout/activity_home_screen" tools:context=".HomeScreenActivity"
     android:background="@android:color/holo_purple"
     android:weightSum="1">
 
@@ -33,7 +33,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="switchToSignUp"/>
 
     <Button
         android:layout_width="300dp"
@@ -50,12 +51,4 @@
         android:padding="0dp"
         android:background="#33a8bf" />
 
-    <EditText
-        android:layout_width="200dp"
-        android:layout_height="20dp"
-        android:id="@+id/editText"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:background="#ffffff"
-        />
 </RelativeLayout>
